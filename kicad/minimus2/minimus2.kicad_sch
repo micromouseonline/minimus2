@@ -1295,6 +1295,219 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:AP7370-50FDC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP7370-50FDC"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1.01x1.7mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7370.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "350mA Low-Dropout Linear Regulator, 5.0V fixed output, DFN-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DFN*2x2mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP7370-50FDC_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP7370-50FDC_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Magnetic:AS5047D"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2801,7 +3014,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "LDO Regulator 3.3V SOT23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2829,145 +3042,6 @@
 				)
 			)
 			(symbol "AP2210N-3.3TRG1_1_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 1.27 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 1.27 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "minimus:AP2210N-5.0TRG1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.112 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "AP2210N-5.0TRG1"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "minimus:AP2210N-x.xTRG1_DIO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "LDO Regulator 5.0V SOT23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "AP2210N-5.0TRG1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT_3.3TRG1_DIO SOT_3.3TRG1_DIO-M SOT_3.3TRG1_DIO-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AP2210N-5.0TRG1_1_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -5.08)
@@ -6525,6 +6599,12 @@
 		(uuid "a62059a1-b1cb-4eb7-ab5a-1aa0a0eb32cd")
 	)
 	(junction
+		(at 143.51 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6521ab0-b94d-4bb4-b369-c6adaec1149e")
+	)
+	(junction
 		(at 25.4 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7880,16 +7960,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 180.34) (xy 96.52 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ee26bd8-8339-44a2-8de9-6453807671c8")
-	)
-	(wire
-		(pts
 			(xy 86.36 53.34) (xy 90.17 53.34)
 		)
 		(stroke
@@ -7907,6 +7977,16 @@
 			(type default)
 		)
 		(uuid "72149758-9bb2-46a2-bed8-26829be0dc42")
+	)
+	(wire
+		(pts
+			(xy 143.51 180.34) (xy 143.51 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72906df7-bede-4a91-9a78-63ad35bae390")
 	)
 	(wire
 		(pts
@@ -8670,6 +8750,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 179.07) (xy 96.52 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c341f2ad-268e-4836-964c-66cad43c4c41")
+	)
+	(wire
+		(pts
 			(xy 86.36 87.63) (xy 90.17 87.63)
 		)
 		(stroke
@@ -8700,7 +8790,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 180.34) (xy 143.51 182.88)
+			(xy 143.51 179.07) (xy 143.51 180.34)
 		)
 		(stroke
 			(width 0)
@@ -10678,7 +10768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRBlack"
+		(property "Footprint" "minimus:LED_D3.0mm_Horizontal_O3.81mm_Z6.0mm"
 			(at 135.89 30.48 90)
 			(effects
 				(font
@@ -10742,78 +10832,6 @@
 			(project "minimus2"
 				(path "/5f02052c-d497-4c23-977a-de0c9b1a7969"
 					(reference "RSE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "minimus:AP2210N-3.3TRG1")
-		(at 143.51 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1cd5c119-821f-461f-9ec6-52967d73b83f")
-		(property "Reference" "U7"
-			(at 143.256 164.592 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AP2210N-3.3TRG1"
-			(at 143.764 167.386 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "minimus:AP2210N-x.xTRG1_DIO"
-			(at 143.51 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "AP2210N-3.3TRG1"
-			(at 143.51 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "81c6fb9a-8972-428c-a013-c30305bbb9e4")
-		)
-		(pin "3"
-			(uuid "a7264244-3013-4536-b464-eb23bf8beac5")
-		)
-		(pin "1"
-			(uuid "5f0e7b58-35fa-4d8c-8a56-ddf7c79920f5")
-		)
-		(instances
-			(project ""
-				(path "/5f02052c-d497-4c23-977a-de0c9b1a7969"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -13107,6 +13125,79 @@
 			(project ""
 				(path "/5f02052c-d497-4c23-977a-de0c9b1a7969"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "minimus:AP2210N-3.3TRG1")
+		(at 143.51 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61feee77-6a4c-49b9-ad17-b557021af013")
+		(property "Reference" "U6"
+			(at 143.51 163.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AP2210N-3.3TRG1"
+			(at 143.51 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "minimus:AP2210N-x.xTRG1_DIO"
+			(at 143.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "AP2210N-3.3TRG1"
+			(at 143.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LDO Regulator 3.3V SOT23"
+			(at 143.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ef2b13d-24cc-46a2-80d9-aa38da381631")
+		)
+		(pin "3"
+			(uuid "35921c5f-a65d-4de5-8115-fa0c5007a889")
+		)
+		(pin "1"
+			(uuid "feaea326-42c8-4bf1-aab5-750b4b408424")
+		)
+		(instances
+			(project ""
+				(path "/5f02052c-d497-4c23-977a-de0c9b1a7969"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -15408,7 +15499,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 115.062 178.308 0)
+			(at 116.332 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16665,79 +16756,6 @@
 		)
 	)
 	(symbol
-		(lib_id "minimus:AP2210N-5.0TRG1")
-		(at 96.52 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be237896-6918-45bf-9845-4c97b3d1861e")
-		(property "Reference" "U6"
-			(at 96.52 163.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AP2210N-5.0TRG1"
-			(at 96.52 166.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "minimus:AP2210N-x.xTRG1_DIO"
-			(at 96.52 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LDO Regulator 5.0V SOT23"
-			(at 96.52 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6cbaeb03-b4b4-40b1-b259-a31cb10775c8")
-		)
-		(pin "2"
-			(uuid "75661ae8-dc60-4fd4-8eaf-ba0f89e40fa5")
-		)
-		(pin "3"
-			(uuid "c8eb9675-5232-47ae-90ca-db31c9ed24d1")
-		)
-		(instances
-			(project ""
-				(path "/5f02052c-d497-4c23-977a-de0c9b1a7969"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 243.84 66.04 0)
 		(unit 1)
@@ -17259,7 +17277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRBlack"
+		(property "Footprint" "minimus:LED_D3.0mm_Horizontal_O3.81mm_Z6.0mm"
 			(at 130.81 30.48 90)
 			(effects
 				(font
@@ -17422,7 +17440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRBlack"
+		(property "Footprint" "minimus:LED_D3.0mm_Horizontal_O3.81mm_Z6.0mm"
 			(at 165.1 30.48 90)
 			(effects
 				(font
@@ -17735,6 +17753,98 @@
 			(project "minimus2"
 				(path "/5f02052c-d497-4c23-977a-de0c9b1a7969"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP7370-50FDC")
+		(at 96.52 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cff45770-daff-4ddd-8100-5e44944a4054")
+		(property "Reference" "U9"
+			(at 96.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP7370-50FDC"
+			(at 96.52 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "minimus:DFN-6-1EP_2x2mm_P0.65mm_EP1.01x1.7mm"
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7370.pdf"
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "350mA Low-Dropout Linear Regulator, 5.0V fixed output, DFN-6"
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6125709"
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4e46694e-2b87-427b-8455-b2110afcfa99")
+		)
+		(pin "7"
+			(uuid "d837649f-4c3b-429b-996a-c511463e3a5b")
+		)
+		(pin "3"
+			(uuid "c87990dd-c121-4498-8bad-931ccb85bd6c")
+		)
+		(pin "1"
+			(uuid "f9a2029d-aa21-4889-a76a-3cac67e31d9a")
+		)
+		(pin "5"
+			(uuid "d8dcba55-4fc5-4e3e-860a-289da312e5f8")
+		)
+		(pin "2"
+			(uuid "f7c76344-8efa-4110-a9a9-d3e268fffd37")
+		)
+		(pin "6"
+			(uuid "86af0ce7-1506-43ca-bb08-86c4c0322fe9")
+		)
+		(instances
+			(project ""
+				(path "/5f02052c-d497-4c23-977a-de0c9b1a7969"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -18477,7 +18587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRBlack"
+		(property "Footprint" "minimus:LED_D3.0mm_Horizontal_O3.81mm_Z6.0mm"
 			(at 170.18 30.48 90)
 			(effects
 				(font
