@@ -60,7 +60,7 @@
 		(end 2 0)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "f7d4d2c3-cdc8-4f81-bc98-be18b55283ef")
@@ -173,7 +173,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/minimus.3dshape/MotorMountMK4_TYRE_v4_RHS.step"
+	(model "${KIPRJMOD}/libraries/minimus.3dshape/MotorMountMK4_Thin_RHS.step"
 		(offset
 			(xyz 0 2.5 0)
 		)

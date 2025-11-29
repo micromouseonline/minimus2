@@ -163,7 +163,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/minimus.3dshape/MotorMountMK4_TYRE_v4_LHS.step"
+	(model "${KIPRJMOD}/libraries/minimus.3dshape/MotorMountMK4_Thin_LHS.step"
 		(offset
 			(xyz 0 -2.5 0)
 		)
